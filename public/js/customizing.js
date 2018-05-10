@@ -7,6 +7,10 @@ $(window).load(function(){
 		$(".left-side").removeClass("on");
 	});
 
+    var win_w = $(window).width();
+    if(win_w<1400){
+        $(".left-side").removeClass("on");
+    }
 
     $(".more_btn").click(function(){
         var answer = $(this).children("ul");
