@@ -20,7 +20,7 @@ default_post_title: 봉치공간
 # Comments. Choose one by filling up the information
 comments:
   # Disqus comments
-  disqus_shortname: bomee88
+  disqus_shortname:
   # Facebook comments
   facebook:
     appid: 

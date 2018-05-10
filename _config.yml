@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: reinforcement_learning_kr
 subtitle:
-description:
-keywords:
-author: John Doe
-language:
+description: reinforcement learning, 딥러닝, 머신러닝을 연구하는 블로그
+keywords: reinforcement learning, 딥러닝, 머신러닝
+author: Woongwon Lee, Chanwoong joo, Bomi Yu
+language: en
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://reinforcement-learning-kr.github.io/
+url: https://reinforcement-learning-kr.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -78,4 +78,5 @@ theme: clean-blog
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/reinforcement-learning-kr/reinforcement-learning-kr.github.io.git

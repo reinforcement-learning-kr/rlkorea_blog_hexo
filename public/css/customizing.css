@@ -1,0 +1,72 @@
+@charset "utf-8";
+
+@import url(http://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-kr.css);
+@import url(http://spoqa.github.io/spoqa-han-sans/css/SpoqaHanSans-jp.css);
+
+* { font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', Sans-serif; }
+
+
+.intro-header .site-heading h1, 
+.intro-header .page-heading h1{display: none!important;}
+
+
+/* 포스트 내부 */
+
+article h1{font-weight: 300; font-size: 24px; color: #333;}
+article h2{font-weight: 300; font-size: 20px; color: #333;}
+article h3{font-weight: 300; font-size: 18px; color: #333;}
+article h4, article h5, article h6{font-weight: 300; font-size: 15px; color: #333;}
+article div,article p,article a{font-size: 17px; line-height: 1.8em; color: #666; font-weight: 300; letter-spacing: -0.5px;}
+article .container .row blockquote,
+article .container .row blockquote p{font-style: normal; font-size: 15px; text-align: left; line-height: 1.6em; color: #888;} 
+article .container .row blockquote{padding: 0 20px 10px;}   
+article ul,
+article ol{font-size: inherit; color: inherit; background: #f6f8fa; padding: 20px; padding-left: 40px; box-sizing: border-box;}
+article li{font-size: inherit; color: inherit; margin-bottom: 10px; margin-top: 10px;}
+article img{border: 1px solid #efefef;}
+figure.highlight pre{letter-spacing: 0.5px; font-weight: 400;}
+.post-categories{text-align: right;}
+.post-categories a{margin-right: 0; border: 0; text-decoration: underline;}
+.post-categories:after{content: ">"; color: #999; margin-right: 15px;}
+.post-tags a{background: #337ab787; padding: 3px 10px; border-radius: 15px; color: #fff; transition: 0.2s all; display: inline-block; line-height: 2em; border:0; font-size: 14px; margin-right:5px;}
+.post-tags a:hover{background: #337ab7cc;}
+.no-border{border:0;}
+
+/* nav */
+.custom-nav{position: fixed; width: 100%; background: rgba(255,255,255,0.7); border-bottom: 1px solid #e1e1e1; z-index: 100; box-shadow: 1px 1px 3px rgba(0,0,0,0.1)}
+.custom-nav .logo{transition:0.2s all; background: url(/img/logo.svg) 0 0 no-repeat; background-size: 60px; text-indent: -9999em; display: block; width: 70px; height: 50px; margin: 5px auto 0px;}
+.custom-nav .logo:hover{transform: rotate(-3deg)}
+
+.custom-nav .menu-icon{position: absolute; top: 19px; left: 20px;}
+.custom-nav .menu-icon button{background: transparent; border: 0; padding: 0;}
+.custom-nav .menu-icon .bar{display: block; width: 24px; height: 1px; background: rgba(0,0,0,0.6); margin-bottom: 7px;}
+.left-side{position: fixed; top: 0; left: -300px; z-index: 101; width: 300px; height: 100%; background: #fafafa; box-shadow: 15px 0px 15px rgba(0,0,0,0); transition: 0.2s all}
+.left-side.on{left: 0; box-shadow: 15px 0px 15px rgba(0,0,0,0.4)}
+
+.left-side .close{position: absolute; top: 15px; right: 15px; width: 20px; height: 20px; opacity: 1;}
+.left-side .close .bar{display: block; width: 20px; border-bottom: 1px solid rgba(0,0,0,0.6); box-sizing: border-box; position: relative;}
+.left-side .close .bar:first-child{transform: rotate(45deg); bottom: -1px}
+.left-side .close .bar:last-child{transform: rotate(-45deg);}
+
+
+.left-side .intro{padding: 30px 30px 0; border-bottom: 1px solid #e1e1e1;background: #fff;}
+.left-side .intro img{width: 78px; height: 78px; border-radius: 50%; display: block; margin: 0 auto; box-shadow: 0px 1px 3px rgba(0,0,0,0.2)}
+
+.left-side .intro p{font-size: 14px; color: #666; word-break: keep-all; text-align: center;}
+
+.left-side .intro p strong{font-size: 18px; font-weight: 400; display: block; padding-bottom: 10px;}
+.left-side ul{list-style: none; padding: 30px;}
+.left-side ul li{padding-bottom: 10px; text-align: left; font-size: 16px; font-weight: 600; text-decoration: none; text-transform: uppercase; color: #666; letter-spacing: -0.5px;}
+.left-side ul li.more_btn ul{display: none;}
+.left-side ul li a{text-align: left; font-size: 16px; font-weight: 600; text-decoration: none; text-transform: uppercase; color: #666; letter-spacing: -0.5px;}
+.left-side ul li a:hover{border-bottom: 1px solid #e1e1e1;}
+/*.left-side ul li:last-child{padding-top: 50px;}*/
+
+
+
+/* header */
+.intro-header{background-attachment: fixed; background-size: cover;}
+.intro-header>div.container{background: rgba(0,0,0,0.34); margin: 0; width: 100%;}
+.intro-header .site-heading, .intro-header .post-heading, .intro-header .page-heading{padding: 200px 0 150px; }
+.intro-header .post-heading h1{font-size: 30px; text-align: center; font-weight: 300}
+.intro-header .post-heading .meta{font-style: normal; font-family: "noto sans"; font-size: 16px; text-align: right;}

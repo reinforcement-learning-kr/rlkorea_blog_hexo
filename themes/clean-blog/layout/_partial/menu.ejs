@@ -18,10 +18,21 @@
 	</button>
 	<div class="intro">
 		<img src="/img/profile.jpg" alt="내사진">
-		<p><a href="mailto:bomee88@naver.com"><strong>@봉치</strong></a>Front-end개발, 웹기획, 웹디자인까지 호기심많은 UI개발자입니다.</p>
+		<p><a href="https://www.facebook.com/groups/ReinforcementLearningKR/"><strong><i class="fa fa-facebook"></i>  <%= config.title %></strong></a><%= config.description %></p>
 	</div>
 	<ul>
-		<% for (var i in theme.menu){ %>
+		<li><a href="#">RLKorea소개</a></li>
+		<li class="more_btn"">프로젝트
+			<ul>
+				<li><a href="">프로젝트1</a></li>
+				<li><a href="">프로젝트2</a></li>
+				<li><a href="">프로젝트3</a></li>
+			</ul>
+		</li>
+		<li class="more_btn"><a href="#">논문리뷰</a></li>
+		<li class="more_btn"><a href="#">강화학습 관련 컨텐츠</a></li>
+		<li></li>
+		<!-- <% for (var i in theme.menu){ %>
 			<li>
 				<a href="<%- theme.menu[i].url ? url_for(theme.menu[i].url) : url_for(theme.menu[i]) %>">
 					<% if (theme.menu[i].icon) { %>
@@ -31,7 +42,7 @@
 					<% } %>
 				</a>
 			</li>
-		<% } %>
+		<% } %> -->
 	</ul>
 </div>
 
