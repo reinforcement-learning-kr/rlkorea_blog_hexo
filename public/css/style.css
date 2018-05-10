@@ -13,7 +13,7 @@
 .serif,
 body,
 .intro-header .post-heading .meta {
-  font-family: 'Lora', 'Times New Roman', serif;
+  font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', Sans-serif;
 }
 .sans-serif,
 h1,
@@ -29,7 +29,7 @@ h6,
 .btn,
 .pager li > a,
 .pager li > span {
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Spoqa Han Sans', 'Spoqa Han Sans JP', Sans-serif;
 }
 body {
   font-size: 20px;
@@ -49,7 +49,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 800;
+  font-weight: 500;
 }
 a {
   color: #404040;
