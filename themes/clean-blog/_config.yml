@@ -12,10 +12,10 @@ menu:
 menu_title: 
 
 # URL of the Home page image
-index_cover: /img/home1-bg.jpg
+index_cover: /img/main.png
 
 # Default post title
-default_post_title: 봉치공간
+default_post_title: RLKorea
 
 # Comments. Choose one by filling up the information
 comments:

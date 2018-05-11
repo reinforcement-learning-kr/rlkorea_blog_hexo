@@ -12,12 +12,15 @@ $(window).load(function(){
         $(".left-side").removeClass("on");
     }
 
+    //메뉴의 더보기버튼
     $(".more_btn").click(function(){
         var answer = $(this).children("ul");
         if(answer.css("display")=="none"){
-            answer.slideDown();  
+            answer.slideDown(100); 
+            $(this).find("i").addClass("rotate"); 
         }else{
-            answer.slideUp();
+            answer.slideUp(100);
+            $(this).find("i").removeClass("rotate"); 
         }
        
     });
