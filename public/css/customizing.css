@@ -57,9 +57,9 @@
 .container{width: 80%; margin-left: 20%;}
 
 /* header */
-.intro-header{background-attachment: fixed; background-size: cover;}
+.intro-header .site-heading{padding: 0;}
 .intro-header>div.container{background-position: 50% 50%;}
-.intro-header .site-heading, .intro-header .page-heading{padding: 200px 0; }
+.intro-header .page-heading{padding: 200px 0; }
 
 /* 메인 */
 .post-preview h2.post-title{font-size: 30px; color: #333; line-height: 1.4em; font-weight: 300;}
@@ -92,3 +92,12 @@ figure.highlight pre{letter-spacing: 0.5px; font-weight: 400;}
 .post-tags a{background: #337ab787; padding: 3px 10px; border-radius: 15px; color: #fff; transition: 0.2s all; display: inline-block; line-height: 2em; border:0; font-size: 14px; margin-right:5px;}
 .post-tags a:hover{background: #337ab7cc;}
 .no-border{border:0;}
+
+@media screen and (max-width: 1199px){
+	.custom-nav .menu-icon button{display: inline-block;}
+	.custom-nav,
+	.container{width: 100%; margin-left: 0;}
+	.left-side .close{display: block;}
+	.left-side{width: 300px;}
+
+}

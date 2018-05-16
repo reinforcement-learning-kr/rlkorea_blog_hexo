@@ -1,16 +1,22 @@
 
+//너비에따른 메뉴보이기
+function left_side(){
+    var win_w = $(window).width();
+    if(win_w<1200){
+        $(".left-side").removeClass("on");
+    }else{
+        $(".left-side").addClass("on");
+    }    
+};
+
 $(window).load(function(){
+    left_side();  
 	$(".menu-icon").children("button").click(function(){
 		$(".left-side").addClass("on");
 	});
 	$(".left-side").children(".close").click(function(){
 		$(".left-side").removeClass("on");
 	});
-
-    var win_w = $(window).width();
-    if(win_w<1400){
-        $(".left-side").removeClass("on");
-    }
 
     //메뉴의 더보기버튼
     $(".more_btn").click(function(){
@@ -26,7 +32,9 @@ $(window).load(function(){
     });
 
 });
-
+$(window).resize(function(){
+    left_side();
+});
 
 // $(window).scroll(function(){
 // 	var scrTop = $(window).scrollTop();
@@ -40,7 +48,6 @@ $(window).load(function(){
 
 
 $(document).ready(function() {
-
 // Hide Header on on scroll down
 var didScroll;
 var lastScrollTop = 0;
