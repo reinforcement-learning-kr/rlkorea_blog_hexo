@@ -13,14 +13,22 @@
 </header>
 
 <!-- Main Content -->
-<div class="container">
+<div class="container intro-content">
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-			<% page.posts.each(function(item){ %>
+			<img src="/img/main.png" style="width:100%">
+			<h1>Reinforcement Learning KR</h1>
+			<div class="text-area">
+				강화학습을 공부하고 연구하시는 분들을 위한 페이스북 그룹입니다. 
+				<br>강화학습에 대한 소식과 논문 정보를 공유하고 함께 재밌는 프로젝트를 진행합니다. 함께 성장해요!
+			</div>
+		</div>
+		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+		<% page.posts.each(function(item){ %>
 				<%- partial('_partial/article-index', {item: item}) %>
 			<% }); %>
 
-			<%- partial('_partial/pagination') %>
+			<%- partial('_partial/pagination') %>			
 		</div>
 	</div>
 </div>

@@ -12,7 +12,8 @@
 
 .intro-header .site-heading h1, 
 .intro-header .page-heading h1{display: none!important;}
-
+.intro-content h1{font-size: 30px; color: #333; padding: 20px 0; text-align: center;}
+.intro-content .text-area{font-size: 18px; font-weight: 300; color: #666; padding: 0 0 50px; line-height: 1.6em;}
 
 /* nav */
 .custom-nav{position: fixed; width: 80%; margin-left:20%; background: rgba(255,255,255,0.7); border-bottom: 1px solid #e1e1e1; z-index: 100; box-shadow: 1px 1px 3px rgba(0,0,0,0.1); text-align: center;}
@@ -49,7 +50,7 @@
 .left-side ul li.more_btn{cursor: pointer}
 .left-side ul li.more_btn ul{padding: 20px 0; display: none;}
 .left-side ul li.more_btn ul li{padding: 10px; transition: 0.2s all;}
-.left-side ul li.more_btn ul li:hover{text-decoration: none; border-bottom: 1px solid #337ab7;}
+.left-side ul li.more_btn ul li:hover{textecoration: none; border-bottom: 1px solid #337ab7;}
 /*.left-side ul li:last-child{padding-top: 50px;}*/
 
 
