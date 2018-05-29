@@ -17,7 +17,15 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ipsum, voluptate
 
 ------------------
 
-# 2. 머신러닝이란?
+# 2. 수식입력테스트
+
+
+```
+$$ \frac{d}{dt}\left(\int_{\Omega(t)}{\mathbf{f}(\mathbf{x},t)dV}\right)=\int_{\Omega(t)}{\frac{\partial \mathbf{f}(\mathbf{x},t)}{\partial t}dV+\int_{\partial \Omega(t)}{(\mathbf{v^b} \cdot \mathbf{n})\mathbf{f}(\mathbf{x},t)dA}}$$
+```
+
+$$ \frac{d}{dt}\left(\int_{\Omega(t)}{\mathbf{f}(\mathbf{x},t)dV}\right)=\int_{\Omega(t)}{\frac{\partial \mathbf{f}(\mathbf{x},t)}{\partial t}dV+\int_{\partial \Omega(t)}{(\mathbf{v^b} \cdot \mathbf{n})\mathbf{f}(\mathbf{x},t)dA}}$$
+
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ipsum, voluptatem quis officiis inventore dolor totam deserunt, possimus similique eum, accusantium adipisci doloremque omnis excepturi quasi, suscipit repellendus quibusdam? Veritatis.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ipsum, voluptatem quis officiis inventore dolor totam deserunt, possimus similique eum, accusantium adipisci doloremque omnis excepturi quasi, suscipit repellendus quibusdam? Veritatis.
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae ipsum, voluptatem quis officiis inventore dolor totam deserunt, possimus similique eum, accusantium adipisci doloremque omnis excepturi quasi, suscipit repellendus quibusdam? Veritatis.
