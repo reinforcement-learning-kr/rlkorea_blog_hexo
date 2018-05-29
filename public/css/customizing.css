@@ -23,7 +23,7 @@
 .custom-nav .menu-icon{position: absolute; top: 19px; left: 20px;}
 .custom-nav .menu-icon button{background: transparent; border: 0; padding: 0; display: none;}
 .custom-nav .menu-icon .bar{display: block; width: 24px; height: 1px; background: rgba(0,0,0,0.6); margin-bottom: 7px;}
-.left-side{position: fixed; top: 0; left: -300px; z-index: 101; width: 20%; height: 100%; background: #e3f2ff; box-shadow: 15px 0px 15px rgba(0,0,0,0); transition: 0.2s all}
+.left-side{position: fixed; top: 0; left: -300px; z-index: 101; width: 20%; height: 100%; background: url(/img/side-bg.jpg) 0 0 no-repeat; background-size: cover; padding: 20px; box-sizing: border-box; box-shadow: 15px 0px 15px rgba(0,0,0,0); transition: 0.2s all}
 .left-side.on{left: 0; }
 
 .left-side .close{position: absolute; top: 30px; left: 15px; width: 20px; height: 20px; opacity: 1; display: none;}
@@ -32,25 +32,25 @@
 .left-side .close .bar:last-child{transform: rotate(-40deg); top: -14px;}
 
 
-.left-side .intro{padding: 50px 30px 0; border-bottom: 1px solid #e1e1e1; background: #337ab7;}
+.left-side .intro{padding: 50px 10px 0; border-bottom: 1px solid #777; background: transparent;}
 .left-side .intro img{width: 78px; height: 78px; border-radius: 50%; display: block; margin: 0 auto; box-shadow: 0px 1px 3px rgba(0,0,0,0.2)}
 
-.left-side .intro p{font-size: 14px; color: #e1e1e1; word-break: keep-all; text-align: center; margin: 50px 0;}
+.left-side .intro p{font-size: 14px; color: #aaa; word-break: keep-all; text-align: center; margin: 50px 0;}
 .left-side .intro p a{color: #fff;}
 .left-side .intro p strong{font-size: 18px; font-weight: 400; display: inline-block; margin-bottom: 20px; color: inherit; border-bottom: 1px solid #e1e1e1;}
-.left-side .intro .fa-facebook{color: #337ab7; background: #fff; display: inline-block; width: 20px; height: 20px; line-height: 20px; border-radius: 3px; margin-right: 10px; transition: 0.2s all}
+.left-side .intro .fa-facebook{color: #fff; background: #337ab7; display: inline-block; width: 20px; height: 20px; line-height: 20px; border-radius: 3px; margin-right: 10px; transition: 0.2s all}
 
 .left-side ul{list-style: none; padding: 0;}
-.left-side ul li{padding: 20px 30px; text-align: left; font-size: 16px; font-weight: 400; text-decoration: none; text-transform: uppercase; color: #666; letter-spacing: -0.5px; border-bottom: 1px solid #fff; transition: 0.2s all}
+.left-side ul li{padding: 20px 30px; text-align: left; font-size: 16px; font-weight: 400; text-decoration: none; text-transform: uppercase; color: #aaa; letter-spacing: -0.5px; border-bottom: 1px solid rgba(255,255,255,0.2); transition: 0.2s all}
 .left-side ul li a{font-size: inherit; font-weight: inherit; color: inherit; text-decoration: none; border-bottom: 0; width: 100%; display: block;}
-.left-side ul>li:hover{background: #b8d5ef;}
+.left-side ul>li:hover{background: rgba(255,255,255,0.1); border-bottom: 1px solid rgba(255,255,255,0.5);}
 .left-side ul li i{transform: rotate(0deg); display: block; height: 10px; position: relative;}
 .left-side ul li i.rotate{transform: rotate(180deg); top: 15px;}
 
 .left-side ul li.more_btn{cursor: pointer}
 .left-side ul li.more_btn ul{padding: 20px 0; display: none;}
 .left-side ul li.more_btn ul li{padding: 10px; transition: 0.2s all;}
-.left-side ul li.more_btn ul li:hover{textecoration: none; border-bottom: 1px solid #337ab7;}
+.left-side ul li.more_btn ul li:hover{textecoration: none; border-bottom: 1px solid rgba(255,255,255,0.5);}
 /*.left-side ul li:last-child{padding-top: 50px;}*/
 
 
@@ -63,7 +63,9 @@
 .intro-header .page-heading{padding: 200px 0; }
 
 /* 메인 */
-.post-preview h2.post-title{font-size: 30px; color: #333; line-height: 1.4em; font-weight: 300;}
+.post-preview{transition: 0.2s all}
+.post-preview:hover{background: rgba(143,191,247,0.05);}
+.post-preview h2.post-title{font-size: 24px; color: #333; line-height: 1.4em; font-weight: 300;}
 .post-preview h3{font-size: 18px; color: #888; line-height: 1.4em; padding-top: 10px;}
 .post-preview .post-meta{font-size: 13px; color: #999; text-align: right; font-style: normal; font-weight: 300;}
 /* 포스트 내부 */

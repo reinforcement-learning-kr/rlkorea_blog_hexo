@@ -34,13 +34,13 @@ google_analytics:
 addthis:
 
 # set your own favicon
-favicon:
+favicon: /img/logo.png
 
 # Social Accounts
 twitter_url:
 twitter_handle:
 facebook_url:
-github_url: https://bomee88.github.io/
+github_url: 
 gitlab_url:
 linkedin_url:
 mailto: bomee88@naver.com
